@@ -1,0 +1,52 @@
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 52px;
+}
+
+.menu li {
+  color: var(--gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 52px;
+  white-space: nowrap;
+}
+
+.live,
+.paramount {
+  margin: 0 !important;
+}
+
+li:hover {
+  cursor: pointer;
+  color: var(--white);
+}
+
+.live::before {
+  content: '';
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin: 0 10px;
+  background: url('@/assets/icons/sprites-icon.png') no-repeat -30px -730px;
+}
+
+.live:hover::before {
+  background: url('@/assets/icons/sprites-icon.png') no-repeat -84px -730px;
+}
+
+.paramount::before {
+  content: '';
+  display: inline-block;
+  width: 111px;
+  height: 26px;
+  margin: 0 52px;
+  background: url('@/assets/icons/sprites-icon.png') no-repeat -255px -70px;
+}
+
+.paramount:hover::before {
+  cursor: pointer;
+  background: url('@/assets/icons/sprites-icon.png') no-repeat -387px -70px;
+}

@@ -1,0 +1,57 @@
+.profileliwrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileliwrap p {
+  margin-top: 1.333rem;
+  font-size: 1.333rem;
+  text-align: center;
+  color: #888888;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.profilewrap {
+  display: block;
+  padding: 0;
+  width: 13.3333rem;
+  height: 13.3333rem;
+  /* border: 5px; */
+  border-color: aliceblue;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.profileActivewrap {
+  display: block;
+  padding: 5px;
+  width: 13.3333rem;
+  height: 13.3333rem;
+  border-color: aliceblue;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.profileBackground {
+  background: url('../../assets/icons/sprites-icon.png') no-repeat -217px -360px;
+  z-index: 999;
+  -webkit-user-drag: none;
+}
+
+.profilewrap:hover {
+  transition: all 0.3s;
+  translate: 0 -15px;
+}
+
+.profileActivewrap:hover {
+  transition: all 0.3s;
+  translate: 0 -15px;
+}

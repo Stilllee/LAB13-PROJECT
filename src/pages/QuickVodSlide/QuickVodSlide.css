@@ -1,0 +1,16 @@
+.contentsName {
+  margin-top: unset;
+  line-height: 150%;
+  color: #c4c4c4;
+  text-align: left;
+}
+
+.list_title {
+  width: 400px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.43px;
+  line-height: 140%;
+  margin-bottom: 12px;
+}

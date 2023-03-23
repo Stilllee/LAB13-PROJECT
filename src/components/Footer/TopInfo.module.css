@@ -1,0 +1,28 @@
+.gray200 {
+  color: var(--gray-200);
+}
+
+.gray500 {
+  color: var(--gray-500);
+}
+
+.topinfo {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notice {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.select {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 30px;
+}

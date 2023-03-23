@@ -1,0 +1,29 @@
+.infoJoin {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 1rem !important;
+  color: var(--gray-300);
+  font-size: 1.3vw;
+}
+
+.infoSignUp {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem !important;
+  gap: 15px;
+  color: var(--gray-300);
+  font-size: 1.3vw;
+}
+
+.noticeSignup {
+  color: var(--gray-500);
+}
+
+.infohover:hover {
+  color: var(--white);
+}

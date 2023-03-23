@@ -1,0 +1,11 @@
+main {
+  position: relative;
+  width: 100%;
+  margin-left: 3.888rem;
+  margin-right: 3.888rem;
+  width: calc(100% - 7.776rem);
+  background: black;
+  font-size: 1.5vw;
+  color: var(--white);
+  margin-bottom: auto;
+}

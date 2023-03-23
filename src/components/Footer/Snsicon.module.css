@@ -1,0 +1,31 @@
+.youtube {
+  background: url('/src/assets/icons/sprites-icon.png') no-repeat -806px -124px;
+  width: 52px;
+  height: 52px;
+  opacity: 0.8;
+}
+
+.twitter {
+  background: url('/src/assets/icons/sprites-icon.png') no-repeat -694px -536px;
+  width: 52px;
+  height: 52px;
+  opacity: 0.8;
+}
+
+.instagram {
+  background: url('/src/assets/icons/sprites-icon.png') no-repeat -694px -330px;
+  width: 52px;
+  height: 52px;
+  opacity: 0.8;
+}
+
+.facebook {
+  background: url('/src/assets/icons/sprites-icon.png') no-repeat -694px -124px;
+  width: 52px;
+  height: 52px;
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 1;
+}

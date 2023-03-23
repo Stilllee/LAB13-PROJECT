@@ -1,0 +1,16 @@
+section {
+  margin: 7.5rem auto !important;
+  max-width: initial;
+  height: auto;
+}
+
+.layout__profile {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents {
+  /* background: brown; */
+}

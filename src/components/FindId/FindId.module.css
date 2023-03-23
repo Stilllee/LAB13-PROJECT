@@ -1,0 +1,39 @@
+.findId {
+    background-color: black;
+    color: var(--white);
+    width: 732px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 60px
+}
+
+.id {
+    text-align: center;
+    font-weight: 700;
+    font-size: var(--text-xl);
+    line-height: 53.06px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    color: var(--gray-700);
+    line-height: 25.6px;
+    font-weight: 400;
+    padding: 18px 0;
+}
+
+.line::before {
+    flex-grow: 1;
+    content: " ";
+    background: var(--gray-700);
+    height: 1px;
+
+}
+
+.line::after {
+    flex-grow: 1;
+    content: " ";
+    background: var(--gray-700);
+    height: 1px;
+}

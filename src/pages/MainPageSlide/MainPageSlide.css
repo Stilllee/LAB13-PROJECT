@@ -1,0 +1,49 @@
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+  margin-bottom: 30;
+  color: #e1e1e1;
+}
+.swiper-title {
+  background-color: black;
+}
+
+.swiper {
+  cursor: pointer;
+}
+.swiper-slide div {
+  transition: all 0.2s linear;
+}
+
+.swiper-slide:hover div {
+  transform: translate(0px, -10px);
+}
+.swiper div[role='button'] {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper div[tabindex='-1'] {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper:hover div[tabindex='0'],
+.swiper:focus-within div[tabindex='0'] {
+  opacity: 1;
+}
+.contentsName {
+  margin-top: unset;
+  line-height: 150%;
+  color: #c4c4c4;
+  text-align: left;
+}
+
+.list_title {
+  width: 400px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.43px;
+  line-height: 140%;
+  margin-bottom: 12px;
+}

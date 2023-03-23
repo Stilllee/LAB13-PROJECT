@@ -1,0 +1,25 @@
+.slideTitle {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title {
+    color: var(--white);
+    font-size: var(--text-xxl);
+    line-height: 70.72px;
+    padding-bottom: 20px;
+}
+
+.boldText {
+    color: var(--gray-200);
+    font-size: var(--text-lg);
+    line-height: 42.65px;
+    padding-bottom: 8px;
+}
+
+.text {
+    color: var(--gray-200);
+    font-size: var(--text-md);
+    line-height: 34.12px;
+}

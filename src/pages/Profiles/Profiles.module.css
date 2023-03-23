@@ -1,0 +1,7 @@
+main {
+  background: black;
+  color: var(--white);
+  position: relative;
+  margin-left: 3.888rem;
+  margin-right: 3.888rem;
+}

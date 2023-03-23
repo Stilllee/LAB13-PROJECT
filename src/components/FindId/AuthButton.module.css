@@ -1,0 +1,35 @@
+.auth {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4px;
+}
+
+.title {
+    font-size: var(--text-lg);
+    line-height: 42.65px;
+    font-weight: 600;
+}
+
+.info {
+    font-size: var(--text-md);
+    line-height: 31.99px;
+    color: var(--gray-400);
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+.button {
+    background-color: var(--gray-200);
+    font-size: var(--text-lg);
+    font-weight: 600;
+    line-height: 42.65px;
+    border-radius: 4px;
+    border: none;
+    width: 732px;
+    height: 86px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--white);
+}

@@ -1,0 +1,67 @@
+.inputform {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+label[name='userinput'] {
+  width: 100%;
+  position: relative;
+  height: 3.4rem;
+  border-radius: 80px;
+  color: #4e4e4e;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+input[name='userdata'] {
+  text-indent: 1.3rem;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #212121;
+  box-sizing: border-box;
+  background-color: #212121;
+  font-size: inherit;
+  font-weight: 300;
+  color: var(--white);
+}
+
+button[name='inputemailformbutton'] {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+}
+
+button[name='inputpasswordformbutton'] {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 3.5rem;
+}
+
+button[name='inputpasswordeyesbutton'] {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+}
+
+.iconclose {
+  background: url('../../assets/icons/sprites-icon.png') no-repeat -410px -321px;
+  width: 24px;
+  height: 24px;
+  border: 0;
+}
+
+.eyes {
+  background: url('../../assets/icons/sprites-icon.png') no-repeat -462px -319px;
+  width: 32px;
+  height: 28px;
+  border: 0;
+}

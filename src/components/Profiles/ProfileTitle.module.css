@@ -1,0 +1,21 @@
+.titlewrap {
+  /* background: rebeccapurple; */
+  margin: 0 -4rem 3rem !important;
+  text-align: center;
+}
+
+.titlehead {
+  position: relative;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.titlehead p {
+  padding: 0 2rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  color: #888888;
+  font-size: 1.677rem;
+  font-weight: normal;
+  word-break: keep-all;
+}
