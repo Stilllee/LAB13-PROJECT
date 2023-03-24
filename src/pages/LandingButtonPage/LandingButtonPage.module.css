@@ -1,0 +1,70 @@
+.white {
+  color: var(--white);
+}
+
+.gray400 {
+  color : var(--gray-400);
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 912px;
+  background-color: var(--black);
+}
+
+.section_message {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 50%);
+}
+
+.section_text {
+  color: var(--white);
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+.sectionimage {
+  position: absolute;
+  top: 27%;
+  left: 40%;
+  background: url('/src/assets/icons/Taing.svg');
+  width: 279px;
+  height: 110px;
+}
+
+.section_button {
+  position: absolute;
+  top: 60%;
+  left: 32%;
+  width: 100%;
+}
+
+.section_buttonstyle {
+  width: 506px;
+  height: 80px;
+  background: #E93945;
+  border-radius: 4px;
+}
+
+.button_text {
+  color: var(--white);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.svgimage {
+  position: absolute;
+  background: url('/src/assets/icons/Simbol.svg') no-repeat -24px -151px;
+  width: 60px;
+  height: 60px;
+  left: 8px;
+  opacity: 0.8;
+}

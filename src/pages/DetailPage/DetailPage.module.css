@@ -1,0 +1,9 @@
+.detailpage {
+  display: flex;
+  padding: 3rem 6rem 4rem;
+  width: 100%;
+  height: 700px;
+  background: black;
+}
+
+

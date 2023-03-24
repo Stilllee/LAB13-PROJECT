@@ -1,0 +1,18 @@
+.btn {
+  width: 100%;
+  background-color: var(--brand-dark-bg-2);
+  color: var(--gray-600);
+  padding: 15px 10px;
+  margin-top: 15px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: var(--gray-700);
+  color: var(--gray-400);
+  cursor: auto;
+}

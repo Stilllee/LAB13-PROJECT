@@ -1,0 +1,8 @@
+main {
+  position: relative;
+  margin-left: 3.888rem;
+  margin-right: 3.888rem;
+  width: calc(100% - 7.776rem);
+  background: black;
+  margin-bottom: auto;
+}

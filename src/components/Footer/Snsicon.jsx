@@ -1,5 +1,5 @@
 import { string } from 'prop-types';
-import style from '@components/Footer/Snsicon.module.css';
+import style from '@components/Footer/SnsIcon.module.css';
 
 export function SnsIcon({ name, src }) {
   return (

@@ -1,5 +1,8 @@
-/* eslint-disable import/export */
-/* eslint-disable import/extensions */
+export * from './SignUp/Section';
+export * from './SignUp/SignUpTitle';
+export * from './SignUp/SignUpRegForm';
+export * from './SignUp/SignUpCheckBox';
+export * from './SignUp/SignUpButton';
 // eslint-disable-next-line import/extensions
 export * from './FindId/FindIdResult';
 export * from './FindId/FindId.jsx';
@@ -14,7 +17,7 @@ export * from './Profiles/ProfileTitle';
 export * from './Profiles/ProfileMembers';
 export * from './Profiles/ProfileMemberList';
 export * from './Footer/CopyRightContents';
-export * from './Footer/Snsicon';
+export * from './Footer/SnsIcon';
 export * from './Footer/LinkAtag';
 export * from './Footer/TopInfo';
 export * from './Header/Menu';

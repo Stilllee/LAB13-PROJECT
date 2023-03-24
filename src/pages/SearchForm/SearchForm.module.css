@@ -1,0 +1,111 @@
+.title {
+  background-color: var(--black);
+  max-height: 940px;
+  padding: 52px 0 92px 0;
+}
+.label {
+  border-bottom: 2px solid #fff;
+  position: relative;
+  display: block;
+}
+.main-image {
+  width: calc(100% - 3rem);
+  background-color: transparent;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  border: none;
+  padding: 16px 0 16px 0;
+  text-indent: 6px;
+}
+input:focus {
+  outline: none;
+}
+.search_button {
+  position: absolute;
+  bottom: 1em;
+  top: 3px;
+  right: -4px;
+  opacity: 1;
+  width: 46px;
+  height: 72px;
+  background-image: url(../../assets/icons/sprites-icon.png);
+  background-repeat: no-repeat;
+  background-position: 23% 80%;
+  text-indent: -9999px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.search_container {
+  background-color: var(--black);
+  display: flex;
+  position: relative;
+}
+.line {
+  display: block;
+  content: '';
+  width: 1px;
+  left: 740px;
+  background-color: var(--brand-dark-bg-2);
+  position: absolute;
+  height: 100%;
+}
+
+.search_title {
+  width: 54%;
+  color: var(--gray-200);
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.43px;
+  line-height: 150%;
+}
+.search_container ul li {
+  margin: 0.75rem 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+  color: var(--gray-300);
+}
+.search_popular {
+  color: var(--gray-200);
+  font-family: 'Pretendard';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+}
+.search_list_button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  padding: 0px 100px 0px 0px;
+}
+.search_list_button span {
+  color: red;
+  margin-right: 30px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 150%;
+}
+.search_list_button h3 {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 150%;
+  color: var(--gray-300);
+}
+.contents {
+  display: flex;
+}
+.contentsName {
+  color: var(--gray-300);
+  font-size: 1.333rem;
+  font-weight: 400;
+}

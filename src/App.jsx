@@ -1,9 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from '@components/Footer/Footer';
+import SignUp from '@pages/SignUp/SignUp';
+import SearchForm from './pages/SearchForm/SearchForm';
 import { useState } from 'react';
 import Header from '@pages/Header/Header';
 import Logout from '@components/Header/Logout';
-import Footer from '@pages/Footer/Footer';
+import Footer from '@components/Footer/Footer';
+import MainNavPage from '@pages/MainNavPage/MainNavPage';
+import DetailPage from '@pages/DetailPage/DetailPage';
+import LandingButtonPage from '@pages/LandingButtonPage/LandingButtonPage';
 import SignIn from '@pages/SignIn/SignIn';
+import Test from '@components/Test/Test';
 import FindIdPage from '@pages/FindId/FindIdPage';
 import FindIdResultPage from '@pages/FindIdResult/FindIdResultPage';
 import FindPasswordPage from '@pages/FindPassword/FindPasswordPage';
@@ -40,6 +47,10 @@ function App() {
           />
         )}
         <Routes>
+          <Route path="/hello" element={<SignUp />} />
+          <Route path="/mainnavpage" element={<MainNavPage />} />
+          <Route path="/detailpage" element={<DetailPage />} />
+          <Route path="/landingbuttonpage" element={<LandingButtonPage />} />
           <Route path="/onboarding" element={<LandingPage />} />
           <Route path="/findid" element={<FindIdPage />} />
           <Route path="/findidresult" element={<FindIdResultPage />} />
@@ -50,6 +61,7 @@ function App() {
           <Route path="/main" exact element={<MainPageSlide />} />
           <Route path="/detailPage01/:id" element={<DetailPages />} />
           <Route path="/findpassword" element={<FindPasswordPage />} />
+          <Route path="/search" element={<SearchForm />} />
         </Routes>
         <Footer />
       </BrowserRouter>

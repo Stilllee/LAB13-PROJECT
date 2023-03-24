@@ -1,0 +1,19 @@
+.signUpTitleWrap {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0 !important;
+}
+
+.signUpTitleWrap h3 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.signUpTitleWrap p {
+  color: var(--gray-400);
+  font-size: 14px;
+  font-weight: bold;
+}

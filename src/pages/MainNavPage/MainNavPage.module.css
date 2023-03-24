@@ -1,0 +1,63 @@
+.container {
+  background: #000;
+}
+
+.swiper div[role="button"] {
+  color: rgba(255, 255, 255, 0.4);
+  transition: all 0.6s;
+}
+
+.swiper div[role="button"]:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.swiper span[role="button"] {
+  background: rgba(255, 255, 255, 0.8);
+  transition: all 0.6s;
+}
+
+.swiper span[role="button"]:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.swiperSlide img {
+  width: 100%;
+  height: 830px;
+  object-fit: contain;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  height: 30%;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.contents_text {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 160%;
+}
+
+.contents_button{
+  width: 10rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  border: 1px solid gray;
+  color: white;
+  border-radius: 10px;
+}

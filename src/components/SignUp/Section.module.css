@@ -1,0 +1,12 @@
+.signupSection {
+  width: 100%;
+  height: 100%;
+  margin: 20px auto 0 !important;
+  background-color: var(--black);
+}
+
+.signupContentWrap {
+  width: 370px;
+  margin: 0 auto 0 !important;
+  max-width: 30rem;
+}
