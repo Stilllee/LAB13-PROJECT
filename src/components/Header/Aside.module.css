@@ -16,16 +16,16 @@
 }
 
 .closeBtn {
-  width: 40px;
+  /* width: 40px;
   height: 40px;
   border: none;
   margin-right: 40px;
-  background: url('@/assets/icons/sprites-icon.png') no-repeat -35px -588px;
+  background: url('@/assets/icons/sprites-icon.png') no-repeat -35px -588px; */
 }
 
 .closeBtn:hover {
-  cursor: pointer;
-  background: url('@/assets/icons/sprites-icon.png') no-repeat -90px -588px;
+  /* cursor: pointer;
+  background: url('@/assets/icons/sprites-icon.png') no-repeat -90px -588px; */
 }
 
 .member {

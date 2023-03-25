@@ -1,6 +1,7 @@
 import LandingAutoSlide from '@components/LandingSlide/LandingAutoSlide';
 import LandingMainSlide from '@components/LandingSlide/LandingMainSlide';
 import LandingSlideTitle from '@components/LandingSlide/LandingSlideTitle';
+import LandingButtonPage from '@pages/LandingButtonPage/LandingButtonPage';
 import style from './LandingPage.module.css';
 
 export default function LandingPage() {
@@ -29,6 +30,7 @@ export default function LandingPage() {
         text={autoTitle.text}
       />
       <LandingAutoSlide />
+      <LandingButtonPage />
     </main>
   );
 }

@@ -1,26 +1,28 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Footer from '@components/Footer/Footer';
 import SignUp from '@pages/SignUp/SignUp';
-import SearchForm from './pages/SearchForm/SearchForm';
 import { useState } from 'react';
+import { useRecoilState } from 'recoil';
 import Header from '@pages/Header/Header';
 import Logout from '@components/Header/Logout';
-import Footer from '@components/Footer/Footer';
+import Footer from '@pages/Footer/Footer';
 import MainNavPage from '@pages/MainNavPage/MainNavPage';
 import DetailPage from '@pages/DetailPage/DetailPage';
 import LandingButtonPage from '@pages/LandingButtonPage/LandingButtonPage';
 import SignIn from '@pages/SignIn/SignIn';
-import Test from '@components/Test/Test';
 import FindIdPage from '@pages/FindId/FindIdPage';
 import FindIdResultPage from '@pages/FindIdResult/FindIdResultPage';
 import FindPasswordPage from '@pages/FindPassword/FindPasswordPage';
 import Profiles from '@pages/Profiles/Profiles';
 import MainPageSlide from '@pages/MainPageSlide/MainPageSlide';
 import LandingPage from '@pages/LandingPage/LandingPage';
+import Main from '@pages/Main/Main';
+import { searchOpen } from './@store/searchOpen';
 import DetailPages from './pages/DetailPages/DetailPages';
+import SearchForm from './pages/SearchForm/SearchForm';
 
 function App() {
   const [showLogout, setShowLogout] = useState(false);
+  const [realSearchOpen] = useRecoilState(searchOpen);
 
   const onClickModalHandler = () => {
     setShowLogout(true);
@@ -29,6 +31,7 @@ function App() {
   const handleLogoutConfirm = () => {
     console.log('User confirmed logout');
     // 로그아웃 로직 작성 필요
+    setShowLogout(false);
   };
 
   const handleLogoutCancel = () => {
@@ -46,19 +49,19 @@ function App() {
             onCancel={handleLogoutCancel}
           />
         )}
+        {
+          realSearchOpen && <SearchForm />
+        }
         <Routes>
-          <Route path="/hello" element={<SignUp />} />
-          <Route path="/mainnavpage" element={<MainNavPage />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/loginpage" element={<SignIn />} />
+          <Route path="/main" element={<Main />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="/detailpage" element={<DetailPage />} />
           <Route path="/landingbuttonpage" element={<LandingButtonPage />} />
-          <Route path="/onboarding" element={<LandingPage />} />
           <Route path="/findid" element={<FindIdPage />} />
           <Route path="/findidresult" element={<FindIdResultPage />} />
-          <Route path="/hello" element={<SignIn />} />
-          <Route path="/test" element={<Test />} />
-          <Route path="/hello" element={<Test />} />
           <Route path="/profiles" element={<Profiles />} />
-          <Route path="/main" exact element={<MainPageSlide />} />
           <Route path="/detailPage01/:id" element={<DetailPages />} />
           <Route path="/findpassword" element={<FindPasswordPage />} />
           <Route path="/search" element={<SearchForm />} />

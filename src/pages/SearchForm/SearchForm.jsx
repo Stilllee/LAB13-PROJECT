@@ -40,13 +40,13 @@ export default function SearchForm() {
     setInput(newList);
   };
 
-  useEffect(() => {
-    const filterList = listData.filter(contents =>
-      // console.log(name.inputValue, contents.name.includes(name.inputValue)),
-      contents.name.includes(name.inputValue),
-    );
-    setFilterData(filterList);
-  }, [name, listData]);
+  // useEffect(() => {
+  //   const filterList = listData.filter(contents =>
+  //     // console.log(name.inputValue, contents.name.includes(name.inputValue)),
+  //     contents.name.includes(name.inputValue),
+  //   );
+  //   setFilterData(filterList);
+  // }, [name, listData]);
 
   useEffect(() => {
     inputFocus.current.focus();

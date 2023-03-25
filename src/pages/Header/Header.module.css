@@ -1,8 +1,3 @@
-/* 왜 따로 설정해줘야 하는지 모르겠음 */
-* {
-  box-sizing: border-box;
-}
-
 .header {
   width: 100%;
   height: 100px;

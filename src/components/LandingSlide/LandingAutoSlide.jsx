@@ -23,7 +23,7 @@ export default function LandingAutoSlide() {
   }, []);
 
   return (
-    <div>
+    <div className={style.slidewrap}>
       <div className={style.slide} ref={firstSlid}>
         <AutoSlide />
         <AutoSlide />

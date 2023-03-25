@@ -26,7 +26,7 @@ export function Profile({
         <div className={style.image} />
         <div className={style.info}>
           <p className={style.name}>닉네임</p>
-          <Link to="/profile" className={style.site}>
+          <Link to="/profiles" className={style.site}>
             프로필 전환 &gt;
           </Link>
         </div>

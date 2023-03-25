@@ -7,38 +7,38 @@
   background-color: black;
 }
 
-.swiper {
+.swiper-title .swiper {
   cursor: pointer;
 }
-.swiper-slide div {
+.swiper-title .swiper-slide div {
   transition: all 0.2s linear;
 }
 
-.swiper-slide:hover div {
+.swiper-title .swiper-slide:hover div {
   transform: translate(0px, -10px);
 }
-.swiper div[role='button'] {
+.swiper-title .swiper div[role='button'] {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
 
-.swiper div[tabindex='-1'] {
+.swiper-title .swiper div[tabindex='-1'] {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
 
-.swiper:hover div[tabindex='0'],
-.swiper:focus-within div[tabindex='0'] {
+.swiper-title .swiper:hover div[tabindex='0'],
+.swiper-title .swiper:focus-within div[tabindex='0'] {
   opacity: 1;
 }
-.contentsName {
+.swiper-title .contentsName {
   margin-top: unset;
   line-height: 150%;
   color: #c4c4c4;
   text-align: left;
 }
 
-.list_title {
+.swiper-title .list_title {
   width: 400px;
   height: 40px;
   font-style: normal;

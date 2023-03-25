@@ -24,8 +24,8 @@ export default function MainPageSlide() {
     <div className="swiper-title">
       <h2
         style={{
-          'margin-left': '44px',
-          'margin-bottom': '8px',
+          'marginLeft': '44px',
+          'marginBottom': '8px',
           width: '375px',
         }}
         className="list_title"
@@ -35,9 +35,9 @@ export default function MainPageSlide() {
 
       <Swiper
         style={{
-          'margin-bottom': '36px',
-          'margin-left': '44px',
-          'padding-top': '10px',
+          'marginBottom': '36px',
+          'marginLeft': '44px',
+          'paddingTop': '10px',
         }}
         spaceBetween={10}
         slidesPerView={7.4}

@@ -4,6 +4,11 @@ import style from './FindIdResult.module.css';
 import { loginInfo } from '../../@store/loginInfo';
 
 export default function FindIdResult() {
+  const movepage = useNavigate();
+  const onClickLoginMoveHandler = () => {
+    movepage('/loginpage');
+  };
+
   let userEmail = useRecoilValue(loginInfo);
   // 사용자 이메일 입력
   const id = userEmail.split('@')[0].slice(3);
@@ -29,7 +34,7 @@ export default function FindIdResult() {
         ※ SNS 회원은 해당 SNS 아이디가 아닌 티빙 가입 시 등록한 이메일을
         알려드립니다.
       </p>
-      <button type="submit" className={style.button}>
+      <button type="submit" className={style.button} onClick={onClickLoginMoveHandler}>
         로그인 하러 가기
       </button>
     </div>

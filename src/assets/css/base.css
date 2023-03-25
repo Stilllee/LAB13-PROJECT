@@ -19,18 +19,13 @@ a {
 }
 
 body {
+  min-height: 100vh;
   font: inherit;
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
     'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-    sans-serif;
-  /* background-color: #fff; */
-}
-
-/* 헤더 스타일 적용을 위한 임시방편 */
-body {
-  background-color: var(--gray-200);
-  min-height: 100vh;
+    sans-serif !important;
+  background-color: black;
 }
 
 /* 유연한 미디어 */

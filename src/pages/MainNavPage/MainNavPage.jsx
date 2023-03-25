@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
-import UseDataFilter from '../../hooks/UseDataFilter';
+import useDataFilter from '../../hooks/useDataFilter';
 
 import 'swiper/swiper.css';
 import 'swiper/css/navigation';
@@ -10,13 +10,13 @@ import style from './MainNavPage.module.css';
 
 export default function UseDataMain() {
   const baseUrl = '../src/assets/images/';
-  const FilterData = UseDataFilter('main');
+  const FilterData = useDataFilter('main');
 
   const slides = [
     {
       id: 'slide-1',
       description: '인생 2회차를 사는 판타지 드라마',
-      link: '/sample/1',
+      link: '/detailpage',
     },
     {
       id: 'slide-2',

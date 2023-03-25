@@ -47,9 +47,9 @@ export function SignInButton({ emailData, passwordData }) {
     console.log('로그인 시도 시작');
     signIn(emailData, passwordData);
     console.log('로그인 시도 끝');
-
+    
     // 메인페이지라고 생각하자.
-    // movePage('/test');
+    movePage('/main');
   };
 
   const onClickSignOutHandler = () => {
